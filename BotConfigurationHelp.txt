@@ -1,0 +1,18 @@
+Project Delivery:
+
+1) Extract the Zip File:
+    After downloading the zip file, extract its contents to any known location on your system.
+
+2) Install Python:
+    If Python is not installed on your system, download and install it from the official Python website: Python Downloads.During installation, make sure to check the box that says "Add Python to PATH" to make it easier to run Python from the command line. You can search for CMD in your system and write command "where python" to see if python is already installed on system and on which path.
+
+3) Libraries Download:
+    Go to the extracted zip folder and left click anywhere to open CMD from that folder. write command pip install -r requirements.txt and wait for whole process to run.
+
+4) Bot Configuration:
+    Go to the extracted zip folder and open main.bat file with notepad and replace "PYTHONPATH" with the your system username and "folderpath" with folder path of bot.
+    
+Now You can double click on main.bat file to run anytime. Please change the mail in config.ini file and you can change other information as required.
+Please do not change .robot or such files as they are inetgrated for bot working.
+
+Thank you and have a great automation!
