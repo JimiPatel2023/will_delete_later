@@ -12,6 +12,9 @@ Project Delivery:
 4) Bot Configuration:
     Go to the extracted zip folder and open main.bat file with notepad and replace "PYTHONPATH" with the your system username and "folderpath" with folder path of bot.
     
+5) Discord Configuration:
+    Please get the bot token and channel id as specified earlier and write them in DiscordCredentials.txt to get notification.
+
 Now You can double click on main.bat file to run anytime. Please change the mail in config.ini file and you can change other information as required.
 Please do not change .robot or such files as they are inetgrated for bot working.
 

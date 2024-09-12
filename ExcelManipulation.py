@@ -85,3 +85,13 @@ class ExcelManipulation:
         except:
             price_float = 0.0
         return price_float
+
+    def find_min_max_indices(self, numbers):
+        if not numbers:
+            return 0, 0  # Return None if the list is empty
+        numbers = [int(num) for num in numbers]  # Convert strings to integers
+        min_index = numbers.index(min(numbers))  # Index of the smallest number
+        max_index = numbers.index(max(numbers))  # Index of the largest number
+        min_index = min_index + 1
+        max_index = max_index + 1
+        return min_index, max_index
